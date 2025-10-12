@@ -3,15 +3,6 @@
 Aplicación de notas en PHP **sin dependencias** y **sin base de datos**.
 Los datos se guardan en `data/notes.json`.
 
-### Ejecutar con Docker
-Construye la imagen y ejecuta:
-
-```bash
-docker build -t php-notes-app .
-docker run --rm -p 8080:80 php-notes-app
-```
-
-Luego abre `http://localhost:8080` y verás la aplicación.
 
 ### Contenido
 - `index.php` — Vista principal y formulario para añadir notas.

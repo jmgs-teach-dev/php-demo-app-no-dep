@@ -1,7 +1,7 @@
 # PHP Notes App (sin base de datos)
 
 Aplicación de notas en PHP **sin dependencias** y **sin base de datos**.
-Los datos se guardan en `data/notes.json`.
+Los datos se guardan en `data/notes.json`. Creada por IA.
 
 
 ### Contenido

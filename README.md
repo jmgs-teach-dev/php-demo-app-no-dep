@@ -12,4 +12,4 @@ Los datos se guardan en `data/notes.json`. Creada por IA.
 - `data/notes.json` — Fichero con los datos.
 - `templates/*` y `assets/*` — HTML parcial y estilos.
 
-La aplicación está diseñada para ejecutarse en el contenedor `php:8.1-apache` sin paquetes adicionales.
+La aplicación está diseñada para ejecutarse php 8.1 sin paquetes adicionales.

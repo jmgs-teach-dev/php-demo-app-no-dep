@@ -10,10 +10,6 @@ function load_notes(): array {
     if ($raw === false) return [];
     $data = json_decode($raw, true);
     if (!is_array($data)) return [];
-    // Ensure sorted newest-first by created_at if not already
-    usort($data, function($a, $b) {
-        return ($b['created_at'] ?? 0) <=> ($a['created_at'] ?? 0);
-    });
     return $data;
 }
 

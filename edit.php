@@ -5,7 +5,7 @@ $notes = load_notes();
 $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 $note = null;
 foreach ($notes as $n) {
-    if ($n['id'] === $id) { $note = $n; break; }
+    if ((int)$n['id'] === $id) { $note = $n; break; }
 }
 if (!$note) {
     header('Location: index.php');
